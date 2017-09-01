@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lmiot.colortextview.MainActivity">
+
+    <com.lmiot.colortextviewlibrary.ColorTextView
+        android:id="@+id/id_span_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:color01="@color/colorAccent"
+        app:color02="@color/colorPrimary"
+        app:size01="30"
+        app:size02="10"
+        app:text01="第一组字体"
+        app:text02="第二组字体"
+        />
+
+</RelativeLayout>
